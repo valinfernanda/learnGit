@@ -1,0 +1,25 @@
+<!-- kalo ada 2 contoh, yg pertama adalah dari lokal
+    dan yg kedua adalah kalo udh terhubung -->
+
+
+<!-- untuk menginisialisasikan folder lokal kita untuk bisa terhubung -->
+git init 
+
+<!--adding/ select files to share -->
+git add <file_name> or git add . (dot means all)
+
+<!-- to record a selected file-->
+git commit -m "<!--messages here-->" 
+
+<!-- to store shared files (developers share files by uploading 
+    and downloading from remotes ) -->
+    <!-- usually developers use the name "origin" -->
+git remote add remote_name url URL 
+<!-- contoh -->
+git remote add origin https://..........
+
+<!-- uploading files to a remote -->
+git push origin master
+<!-- or -->
+git push 
+
